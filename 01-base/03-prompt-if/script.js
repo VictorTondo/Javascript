@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /01-base/03-prompt-if/script.js - 1.3: promp & if
+ * /01-base/03-prompt-if/script.js - 1.3: prompt & if
  *
  * coded by leny@BeCode
  * started at 26/10/2018
@@ -11,6 +11,12 @@
 
 (function() {
 
-  // your code here
+let theCake = prompt("Do you want more cake?")
 
-})();
+    if (theCake === "yes"){
+       alert("congratulations");
+    } else {
+        alert("more for me then");
+    }
+})
+();
