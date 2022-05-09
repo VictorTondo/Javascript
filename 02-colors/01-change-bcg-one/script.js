@@ -11,6 +11,35 @@
 
 (function() {
 
-    // your code here
+    const btnRed = document.getElementById('red');
+
+    btnRed.addEventListener('click', function onClick () {
+
+        document.body.style.backgroundColor = 'red'
+
+    })
+
+    const btnGreen = document.getElementById('green');
+
+    btnGreen.addEventListener('click', function onClick () {
+
+        document.body.style.backgroundColor = 'green';
+    })
+
+    const btnBlue = document.getElementById('blue');
+
+    btnBlue.addEventListener('click', function onClick () {
+
+        document.body.style.backgroundColor = 'blue';
+    })
+
+    const btnYellow = document.getElementById('yellow');
+
+    btnYellow.addEventListener('click', function onClick () {
+
+        document.body.style.backgroundColor = 'yellow';
+    })
+
 
 })();
+
