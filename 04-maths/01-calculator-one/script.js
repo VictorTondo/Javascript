@@ -39,9 +39,9 @@
         let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
         let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
 
-        let rest = parseFloat(numberOne) * parseFloat(numberTwo)
+        let multiplication = parseFloat(numberOne) * parseFloat(numberTwo)
 
-        window.alert(rest)
+        window.alert(multiplication)
 
 
     });
@@ -51,9 +51,9 @@
         let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
         let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
 
-        let rest = parseFloat(numberOne) / parseFloat(numberTwo)
+        let division = parseFloat(numberOne) / parseFloat(numberTwo)
 
-        window.alert(rest)
+        window.alert(division)
 
     });
 })();
