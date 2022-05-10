@@ -13,18 +13,47 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("addition").addEventListener("click", function() {
-        // perform an addition
+
+        let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
+        let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
+
+        let sum = parseFloat(numberOne) + parseFloat(numberTwo)
+
+        window.alert(sum)
+
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
-        // perform an substraction
+
+        let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
+        let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
+
+        let rest = parseFloat(numberOne) - parseFloat(numberTwo)
+
+        window.alert(rest)
+
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
-        // perform an multiplication
+
+        let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
+        let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
+
+        let rest = parseFloat(numberOne) * parseFloat(numberTwo)
+
+        window.alert(rest)
+
+
     });
 
     document.getElementById("division").addEventListener("click", function() {
-        // perform an division
+
+        let numberOne = document.getElementById('op-one').value;parseInt(numberOne);
+        let numberTwo = document.getElementById('op-two').value;parseInt(numberTwo);
+
+        let rest = parseFloat(numberOne) / parseFloat(numberTwo)
+
+        window.alert(rest)
+
     });
 })();
