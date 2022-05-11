@@ -11,9 +11,9 @@
 
 (function() {
 
-    var fruits = [
+    let fruits = [
         "apple",
-        "perry",
+        "lemon",
         "strawberry",
         "tomato",
         "kiwi",
@@ -26,6 +26,15 @@
         "cherry",
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener("click", ()=> {
+
+        console.log(fruits.indexOf("apple"))
+        if (fruits.indexOf("apple") !== -1){
+            console.log("Yes");
+        } else {
+            console.log("No");
+        }
+
+    });
 
 })();
