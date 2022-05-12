@@ -11,6 +11,15 @@
 
 (function() {
 
-    // your code here
+    let classes = document.getElementsByClassName("target");
+
+    console.log(classes[0].innerHTML)
+
+
+    for (let i = 0; i < classes.length; i++){
+
+        classes[i].innerHTML="Owned"
+
+    }
 
 })();
