@@ -11,6 +11,9 @@
 
 (function() {
 
-    // your code here
+    let div = document.querySelector('#target');
+
+    div.innerHTML='<b> Owned </b>';
+
 
 })();
