@@ -11,6 +11,7 @@
 
 (function() {
 
-    // your code here
+    let div = document.getElementById('target')
+    div.innerHTML= "Owned"
 
 })();
